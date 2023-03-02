@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="main">
+        <div id="pic">
+            <div id="picture">
+                <img src="/pics/moutain.jpg" alt="picture">
+            </div>
+            <div id="logo">
+                <div id="logo-name">
+                    <p>Here place company Name</p>
+                </div>
+            </div>
+            <div id="cre">
+                <p>Credit to Znb Hamidz</p>
+            </div>
+        </div>
+        <div id="form">
+            <div id="info">
+                <h1>This is something you want to know before signup to our website</h1>
+            </div>
+            <div id="text-know">
+                <h1>This website is for education only!</h1>
+            </div>
+            <div id="main-form">
+                <form action="">
+                    <div id="first-col">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstname">
+                        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div id="second-col">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastname" id="lastname">
+
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" name="phonenumber" id="phonenumber" pattern="^(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})$">
+                        
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                    </div>
+                </form>
+                <button type="submit">Creat Account</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

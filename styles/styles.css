@@ -1,0 +1,118 @@
+* {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main */
+
+#main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+/* Picture and Logo */
+
+#main #pic{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#main img {
+    width: 100%;
+    height: 1000px;
+}
+
+#main #cre {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+
+#main #cre p {
+    font-size: 32px;
+}
+
+/* Form */
+
+/* Left */
+#main #form div{
+    gap: 10px;
+}
+
+#main #form #info {
+    padding-top: 250px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#main #form #text-know {
+    padding-bottom: 25px;
+}
+
+#main #pic #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 200px;
+}
+
+#main #pic #logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 96%;
+    height: 150px;
+}
+
+#main #pic #logo #logo-name p{
+    color: white;
+    font-size: 32px;
+    
+}
+
+/* Right */
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+#main-form button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#main-form button:hover {
+    background-color: red;
+}
+
+#main-form input {
+    width: 300px;
+    border-radius: 3px;
+}
+
+
+#first-col, #second-col {
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+  
+#first-col {
+    float: left;
+}
+  
+#second-col {
+    float: right;
+}
+
