@@ -26,7 +26,7 @@
 
 #main img {
     width: 100%;
-    height: 1000px;
+    height: 780px;
 }
 
 #main #cre {
@@ -41,13 +41,14 @@
 
 /* Form */
 
-/* Left */
-#main #form div{
-    gap: 10px;
+#form #container-text {
+
 }
 
+/* Left */
+
 #main #form #info {
-    padding-top: 250px;
+    padding-top: 150px;
     padding-bottom: 25px;
     text-transform: uppercase;
 }
@@ -66,7 +67,7 @@
 
 #main #pic #logo {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 96%;
+    width: 95%;
     height: 150px;
 }
 
@@ -81,9 +82,9 @@
 #main-form {
     display: flex;
     flex-direction: column;
-    align-items: start;
-  }
-  
+}
+
+/* Button */
 #main-form button {
     width: 150px;
     height: 30px;
@@ -95,24 +96,24 @@
     background-color: red;
 }
 
+/* Input */
+
 #main-form input {
     width: 300px;
-    border-radius: 3px;
 }
 
-
-#first-col, #second-col {
-   width: 45%;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
+#main-form #first-col,
+#main-form #second-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 0;
 }
-  
+
 #first-col {
     float: left;
 }
-  
-#second-col {
-    float: right;
-}
 
+#second-col {
+    float:right;
+}

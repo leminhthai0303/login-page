@@ -23,33 +23,48 @@
             </div>
         </div>
         <div id="form">
-            <div id="info">
-                <h1>This is something you want to know before signup to our website</h1>
-            </div>
-            <div id="text-know">
-                <h1>This website is for education only!</h1>
+            <div id="container-text">
+                <div id="info">
+                    <h1>This is something you want to know before signup to our website</h1>
+                </div>
+                <div id="text-know">
+                    <h1>This website is for education only!</h1>
+                </div>
             </div>
             <div id="main-form">
                 <form action="">
-                    <div id="first-col">
-                        <label for="firstName">First Name</label>
-                        <input type="text" name="firstName" id="firstname">
+                    <div id="first-row">
+                        <div id="first-col">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstname" required>
+                        </div>
                         
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <div id="second-col">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" required>
+                        </div>
                     </div>
-                    <div id="second-col">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" name="lastname" id="lastname">
+                    <div id="second-row">
+                        <div id="first-col">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
 
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="text" name="phonenumber" id="phonenumber" pattern="^(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})$">
-                        
-                        <label for="password">Confirm Password</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword">
+                        <div id="second-col">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="text" name="phonenumber" id="phonenumber" pattern="^(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})$" required>
+                        </div>
+                    </div>
+                    <div id="third-row">
+                        <div id="first-col">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+
+                        <div id="second-col">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
                     </div>
                 </form>
                 <button type="submit">Creat Account</button>
